@@ -8,8 +8,7 @@ body {
 	cursor: cell;
 }
 
-::-moz-selection { background: yellow; }
-::selection { background: yellow; }
+::-moz-selection, ::selection { background: yellow; }
 
 h2 {
 	font-size: 100%; 
