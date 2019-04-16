@@ -1,1 +1,21 @@
-body {background: #ddd;}
+body {
+	font-family: trilby,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 130%;
+	color: #333;
+	background: #fafafa;
+	cursor: cell;
+}
+
+::-moz-selection { background: yellow; }
+::selection { background: yellow; }
+
+h2 {
+	font-size: 100%; 
+	font-family: trilby, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+a:hover {text-decoration: none;}
